@@ -1,0 +1,27 @@
+.container {
+	background: #73ce04;
+	width: 99%;
+	height: 100%;
+	margin: 0;
+	display: block;
+}
+.img {
+	position: relative;
+	width: 107%;
+	height: 118%;
+	left: 69px;
+	top: 40px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+@media (max-width: 744px) {
+	.img {
+		position: relative;
+		width: 118%;
+		height: 123%;
+		left: 9px;
+		top: 0px;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+}

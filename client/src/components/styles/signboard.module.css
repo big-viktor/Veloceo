@@ -1,0 +1,132 @@
+.container {
+	width: 100%;
+	height: auto;
+	background-color: #1a1a1a;
+	margin-top: 169px;
+	display: flex;
+	justify-content: center;
+}
+.container_board {
+	width: 100%;
+	padding: 40px 0px 58px 0px;
+	display: flex;
+	position: relative;
+	max-width: 1444px;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 98px;
+}
+.content_board {
+	gap: 50px;
+	width: 100%;
+	display: flex;
+	position: relative;
+	max-width: 600px;
+	box-sizing: border-box;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.text_board {
+	color: #fff;
+	font-size: 1vw;
+	font-style: normal;
+	font-family: 'fontMedium', sans-serif;
+	font-weight: 500;
+	line-height: 30px;
+	letter-spacing: 0;
+	text-transform: none;
+	width: 100%;
+	max-width: 432px;
+	min-height: 109px;
+	padding-top: 28px;
+}
+.partition {
+	width: 100%;
+	margin: 0;
+	display: block;
+	max-width: 1px;
+	height: 80px;
+	background-color: #73ce04;
+}
+.number_board {
+	color: #fff;
+	font-size: 4.2vw;
+	font-style: normal;
+	font-family: 'fontLight', sans-serif;
+	font-weight: 300;
+	line-height: 120px;
+	letter-spacing: 0;
+	text-transform: none;
+}
+@media (max-width: 1490px) {
+	.container_board {
+		padding: 40px 40px 58px 40px;
+		gap: 48px;
+	}
+}
+@media (max-width: 744px) {
+	.container {
+		margin-top: 48px;
+		display: flex;
+		justify-content: center;
+	}
+	.partition {
+		display: none;
+	}
+	.content_board {
+		max-width: 100%;
+		justify-content: space-between;
+		gap: 0px;
+	}
+	.container_board {
+		padding: 37px 40px 45px 40px;
+		gap: 19px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+	.number_board {
+		line-height: 49px;
+		font-size: 6.1vw;
+	}
+	.text_board {
+		min-height: 100%;
+		padding-top: 0px;
+		font-size: 1.9vw;
+		max-width: 491px;
+	}
+}
+@media (max-width: 660px) {
+	.content_board {
+		flex-direction: column;
+	}
+	.container {
+		margin-top: 146px;
+	}
+	.number_board {
+		font-size: 14.5vw;
+	}
+	.text_board {
+		font-size: 3.6vw;
+		padding-top: 36px;
+	}
+}
+@media (max-width: 414px) {
+	.container {
+		margin-top: 135px;
+	}
+	.container_board {
+		padding: 50px 40px 37px 21px;
+		gap: 22px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+	.content_board {
+		padding-top: 23px;
+		gap: 19px;
+	}
+}

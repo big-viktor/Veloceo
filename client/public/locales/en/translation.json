@@ -1,0 +1,45 @@
+{
+    "text": "Some text",
+    "hello": "Hello World!",
+    "link":"Home",
+    "link2":"About Us ",
+    "link3":"For Candidates",
+    "link4":"For Companies ",
+    "link5":"Contact",
+
+    "selecteLang":"EN",
+    
+    "titleHom1":"Expand your business with Veloceo® recruitment agency",
+    "titleHom2":"Veloceo®",
+    "titleHom3":"We build strong partnerships with companies for mutual growth and success across the country!",
+    
+    "signboardText1":"We Have Over 15 Years Of Experience In Employing And Providing Temporary Assignment Services.",
+    "signboardText2":"We Have A Database Of Thousands Of Candidates From Which We Select Suitable Candidates. We Currently Assign Jobs To More Than 250 Employees.",
+
+    "cardBlockTitle":"Individual approach to each client" ,
+    "cardTitleOne":"More than just recruitment agency",
+    "cardTitleTwo":"Customer satisfaction is our top priority",
+    "cardTitleThre":"Adaptation to individual needs",
+    "cardTextOne":"Veloceo is a modern and innovative staffing agency that focuses on providing reliable and efficient temporary assignment solutions.",
+    "cardTextTwo":"Our main priority is to ensure successful cooperation with each client and to meet their individual needs.",
+    "cardTextThre":"Thanks to our personal approach and flexibility, we are able to adapt to each client and offer them the best solution for their business.",
+
+    "infoHome":"Who we are?",
+    "infoText":"Veloceo is a dynamic recruitment agency with a team that has over 15 years of experience in the recruitment industry. We specialize in providing manpower for manufacturing and non-manufacturing companies in the Czech Republic. Our mission is to help companies find the right employees to support their growth and success. With our personal touch and deep understanding of market needs, we provide services that not only meet but often exceed our clients' expectations. We believe that the growth of our partners is also our own growth. We are proud to be reliable partners on the road to achieving common goals.",
+    
+    "callTitle":"Cooperation with Veloceo How to do it?",
+    "callText":"Click on the 'Contact Veloceo' button below, fill in the contact form and we will get back to you as soon as possible. After answering a few of our questions, we will prepare a no-obligation quote for you. We do not prepare traditional quotations. We will process everything carefully and prepare a presentation for you, not only with a quotation but also comparing the cost of an employee in your company and our agency employee.",
+    "callNumber":"Contact Veloceo",
+
+    "serviceBlocTitle":"Our services",
+    "serviceBlocTitleOne":"Recruitment and Selection of Employees",
+    "serviceBlocTitleTwo":"Publication of Classified Ads and Employee Search",
+    "serviceBlocTitleThre":"Accommodation and Transport",
+    "serviceBlocTextOne":"Thanks to our extensive experience and comprehensive candidate database, we are able to efficiently identify and reach the ideal workforce for your company. We offer a personalized approach and fast response to your recruitment needs.",
+    "serviceBlocTextTwo":"We use a wide range of channels to find employees, including classifieds, advertising, and our extensive database. We also offer rewards for employee referrals, allowing us to reach a wider range of candidates.",
+    "serviceBlocTextThre":"We provide comprehensive accommodation and transport services for our employees. We offer quality accommodation close to the workplace, as well as reliable transport options from home to the workplace so that employees can work without worry.",
+
+    "blackText":"Click on the 'Job' button below and you will automatically be taken to the job vacancies page. You will find positions in different fields and with different requirements on our job vacancies page. Once you have selected a position of interest, simply fill out our simple contact form and we will endeavour to contact you as soon as possible. We are here to help you find the ideal job opportunity that meets your expectations and needs.",
+    "blackTitle":"Are you a candidate? We will take care of you!",
+    "btnName":"Job"
+}

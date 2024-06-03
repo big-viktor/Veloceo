@@ -1,0 +1,119 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	margin: 196px 0px 0px 0px;
+}
+.img {
+	height: 37vw;
+	width: 112%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.content {
+	width: 100%;
+	background-color: #73ce04;
+	padding: 76px 70px 63px 234px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.text {
+	color: #1a1a1a;
+	font-size: 1.2vw;
+	font-style: normal;
+	font-family: 'fontRegular', sans-serif;
+	font-weight: 400;
+	line-height: 40px;
+	letter-spacing: 0;
+	text-transform: none;
+	margin-top: 51px;
+}
+.title {
+	width: 69%;
+}
+.btn {
+	gap: 10px;
+	width: 100%;
+	display: flex;
+	padding: 16px 40px;
+	position: relative;
+	max-width: 294px;
+	box-sizing: border-box;
+	align-items: center;
+	border-radius: 5px 5px 5px 5px;
+	justify-content: center;
+	background-color: #fff;
+	color: #000;
+	font-size: 20px;
+	font-style: normal;
+	font-family: 'SemiBold', sans-serif;
+	font-weight: 600;
+	line-height: 30px;
+	letter-spacing: 0;
+	text-transform: none;
+}
+@media (max-width: 1740px) {
+	.img {
+		width: 110%;
+		height: auto;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	.content {
+		padding: 76px 70px 37px 40px;
+	}
+	.btn {
+		margin-top: 20px;
+	}
+}
+@media (max-width: 1500px) {
+	.container {
+		display: flex;
+		flex-direction: column-reverse;
+		margin: 231px 0px 0px 0px;
+	}
+	.content {
+		padding: 37px 0px 37px 0px;
+		width: 100%;
+		max-width: 100%;
+	}
+	.btn {
+		margin-left: 30px;
+		padding: 16px 20px;
+	}
+	.img {
+		width: 100%;
+		height: 50vw;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position-y: -60px;
+	}
+	.title {
+		margin: 0px 40px 0px 40px;
+	}
+	.text {
+		margin: 20px 40px 0px 40px;
+	}
+}
+@media (max-width: 744px) {
+	.container {
+		margin: 108px 0px 0px 0px;
+	}
+	.img {
+		display: none;
+	}
+	.title {
+		font-size: 4.3vw;
+		width: 49%;
+	}
+	.text {
+		font-size: 2.5vw;
+	}
+	.btn {
+		margin: 0px 0px 26px 35px;
+		padding: 13px 0px;
+		font-size: 17px;
+		max-width: 227px;
+	}
+}

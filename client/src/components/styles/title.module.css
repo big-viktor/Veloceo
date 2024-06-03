@@ -1,0 +1,126 @@
+.title_text {
+	color: #1a1a1a;
+	font-size: 3vw;
+	font-style: normal;
+	font-family: 'fontBold';
+	font-weight: 700;
+	line-height: 81px;
+	letter-spacing: 0;
+	text-transform: none;
+}
+.container_title {
+	width: 100%;
+	padding-right: 100px;
+}
+.content_title {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.title_span {
+	color: #73ce04;
+	font-size: 3vw;
+	font-style: normal;
+	font-family: 'fontMon';
+	font-weight: 700;
+	line-height: 81px;
+	letter-spacing: 0;
+	text-transform: none;
+}
+.title_text2 {
+	color: #000;
+	font-size: 3vw;
+	font-style: normal;
+	font-family: 'fontMedium';
+	font-weight: 500;
+	line-height: 81px;
+	letter-spacing: 0;
+	text-transform: none;
+}
+@media (max-width: 1785px) {
+	.container_title {
+		padding-right: 0px;
+	}
+}
+@media (max-width: 1600px) {
+	.title_text2 {
+		font-size: 2.5vw;
+	}
+	.title_text {
+		font-size: 2.5vw;
+	}
+	.title_span {
+		font-size: 2.5vw;
+	}
+	.container_title {
+		margin-right: 90px;
+	}
+}
+@media (max-width: 1440px) {
+	.container_title {
+		margin-right: 0px;
+	}
+	.title_text2 {
+		line-height: 52px;
+	}
+	.title_text {
+		line-height: 52px;
+	}
+	.title_span {
+		line-height: 52px;
+	}
+}
+@media (max-width: 970px) {
+	.content_title {
+		display: block;
+	}
+	.container_title {
+		margin-right: 0px;
+	}
+	.title_text2 {
+		letter-spacing: 0;
+		text-transform: none;
+		font-size: 3vw;
+		margin: 0 auto;
+		line-height: 27px;
+		max-width: 88%;
+		margin-top: 32px;
+	}
+	.title_text {
+		line-height: 50px;
+		letter-spacing: 0;
+		text-transform: none;
+		font-size: 5.4vw;
+	}
+	.title_span {
+		line-height: 50px;
+		letter-spacing: 0;
+		text-transform: none;
+	}
+	.title_span {
+		font-size: 5.4vw;
+	}
+}
+@media (max-width: 640px) {
+	.container_title {
+		margin-top: 24px;
+	}
+	.title_text {
+		font-size: 8.4vw;
+		line-height: 46px;
+	}
+	.title_span {
+		font-size: 8.4vw;
+		line-height: 46px;
+	}
+	.title_text2 {
+		letter-spacing: 0;
+		text-transform: none;
+		font-size: 7vw;
+		/* margin: 0 auto; */
+		line-height: 39px;
+		max-width: 100%;
+		margin-top: 32px;
+		text-align: center;
+	}
+}

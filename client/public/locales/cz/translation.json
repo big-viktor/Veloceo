@@ -1,0 +1,48 @@
+{
+    "text": "Some text",
+    "hello": "Hello World!",
+        "link":"Úvod",
+        "link2":"O Nás",
+        "link3":"Pro Uchazeče",
+        "link4":"Pro Firmy",
+        "link5":"Kontakt",
+        "titleHom1":"Rozšiřte své podnikání s personální agenturou",
+        "titleHom2":"Veloceo®",
+        "titleHom3":"Budujeme silné partnerství s firmami pro vzájemný růst a úspěch po celé České republice!",
+    "selecteLang":"CZ",
+    
+    "signboardText1":"Máme Více Než 15 Let Zkušeností Se Zaměstnáváním A Poskytováním Služeb V Oblasti Dočasného Přidělení.",
+    "signboardText2":"Máme Databázi Tisíců Kandidátů, Z Které Vybíráme Vhodné Uchazeče. Aktuálně Přidělujeme Práci Více Než 200 Zaměstnancům.",
+
+    "cardBlockTitle":"Individuální přístup ke každému klientovi" ,
+    "cardTitleOne":"Více než jen personální agentura",
+    "cardTitleTwo":"Spokojenost zákazníků na prvním místě",
+    "cardTitleThre":"Přizpůsobení se individuálním potřebám",
+    "cardTextOne":"Veloceo je moderní a inovativní Personální agentura, která se zaměřuje na poskytování spolehlivých a efektivních řešení v oblasti dočasného přidělení",
+    "cardTextTwo":"Naše hlavní prioritou je zajištění úspěšné spolupráce s každým klientem a splnění jeho individuálních potřeb.",
+    "cardTextThre":"Díky našemu osobnímu přístupu a flexibilitě jsme schopni přizpůsobit se každému klientovi a nabídnout mu to nejlepší řešení pro jeho podnikání.",
+
+    "infoHome":"Kdo jsme?",
+    "infoText":"Veloceo je dynamická personální agentura s týmem, který má více než 15 let praxe v oboru náboru zaměstnanců. Specializujeme se na poskytování pracovních sil pro výrobní a nevýrobní společnosti v České republice. Naší misí je pomáhat firmám najít správné zaměstnance, kteří podporují jejich růst a úspěch. S naším osobním přístupem a hlubokým porozuměním potřebám trhu poskytujeme služby, které nejen odpovídají, ale často překračují očekávání našich klientů. Věříme, že růst našich partnerů je zároveň naším vlastním růstem. Jsme hrdí, že můžeme být spolehlivými partnery na cestě k dosažení společných cílů. ",
+
+    "callTitle":"Spolupráce s Veloceo  Jak na to?",
+    "callText":"Klikněte na tlačítko 'Kontaktovat Veloceo' níže, vyplňte kontaktní formulář a my se Vám co nejdříve ozveme. Po odpovědi na pár našich otázek zpracujeme pro Vás nezávaznou cenovou nabídku. Nepřipravujeme klasické nabídky.  Vše pečlivě zpracujeme a s péčí připravíme pro Vás prezentaci, nejen s cenovou nabídkou, ale také porovnáme náklady na zaměstnance ve vaší firmě a našeho agenturního zaměstnance.",
+    "callNumber":"Kontaktovat Veloceo",
+
+    "serviceBlocTitle":"Naše služby",
+    "serviceBlocTitleOne":"Nábor a Výběr Zaměstnanců",
+    "serviceBlocTitleTwo":"Publikace Inzerátů a Hledání Zaměstnanců",
+    "serviceBlocTitleThre":"Ubytování a Doprava",
+    "serviceBlocTextOne":"Díky našim bohatým zkušenostem a komplexní databázi kandidátů jsme schopni efektivně identifikovat a oslovit ideální pracovní síly pro vaši firmu. Nabízíme individuální přístup a rychlou odezvu na vaše potřeby v oblasti náboru.",
+    "serviceBlocTextTwo":"Využíváme širokou škálu kanálů pro hledání zaměstnanců, včetně inzerátů, reklam a naší rozsáhlé databáze. Nabízíme také odměny za doporučení zaměstnanců, což nám umožňuje dosáhnout širšího spektra kandidátů.",
+    "serviceBlocTextThre":"Poskytujeme komplexní služby v oblasti ubytování a dopravy pro naše zaměstnance. Nabízíme kvalitní ubytování v blízkosti pracoviště, stejně jako spolehlivé dopravní možnosti od bydliště k pracovišti, aby zaměstnanci mohli pracovat bez starostí.",
+
+    "blackText":"Klikněte na tlačítko 'Job' níže a automaticky přejdete na Nabídky práce. Na naší stránce nabídek práce najdete pozice v různých oborech a s různými požadavky. Poté, co si vyberete zajímavou pozici, stačí vyplnit náš jednoduchý kontaktní formulář, a my se co nejdříve budeme snažit kontaktovat vás. Jsme tu, abychom vám pomohli najít ideální pracovní příležitost, která splňuje vaše očekávání a potřeby.",
+    "blackTitle":"Jste uchazeč? My se postaráme o vás!",
+    "btnName":"Job"
+
+    
+
+
+
+}

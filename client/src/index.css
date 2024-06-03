@@ -1,0 +1,66 @@
+body {
+	display: block;
+	margin: 0px;
+	height: 100%;
+}
+@font-face {
+	font-family: 'SemiBold';
+
+	src: url('./fonts/montserrat/static/Montserrat-SemiBold.ttf');
+}
+@font-face {
+	font-family: 'fontRegular';
+
+	src: url('./fonts/montserrat/static/Montserrat-Regular.ttf');
+}
+@font-face {
+	font-family: 'fontSemi';
+
+	src: url('./fonts/montserrat/static/Montserrat-SemiBold.ttf');
+}
+@font-face {
+	font-family: 'fontLight';
+
+	src: url('./fonts/montserrat/static/Montserrat-Light.ttf');
+}
+@font-face {
+	font-family: 'fontMon';
+
+	src: url('./fonts/montserrat/static/Montserrat-Regular.ttf');
+}
+@font-face {
+	font-family: 'fontMedium';
+
+	src: url('./fonts/montserrat/static/Montserrat-Medium.ttf');
+}
+@font-face {
+	font-family: 'fontBold';
+
+	src: url('./fonts/montserrat/static/Montserrat-Bold.ttf');
+}
+ul {
+	list-style: none;
+}
+a {
+	text-transform: none;
+	text-decoration: none;
+}
+li {
+	text-transform: none;
+	text-decoration: none;
+}
+ul {
+	text-transform: none;
+	text-decoration: none;
+}
+button {
+	background-color: initial;
+	border: 0px;
+	cursor: pointer;
+}
+p {
+	margin: 0px;
+}
+.closed {
+	display: none;
+}
