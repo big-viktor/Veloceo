@@ -1,0 +1,42 @@
+.container_form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 605px;
+	justify-content: space-between;
+	height: 474px;
+}
+.form_name {
+	color: #000;
+	font-size: 20px;
+	font-style: normal;
+	margin-top: 0;
+	text-align: left;
+	font-family: 'fontMedium', sans-serif;
+	font-weight: 500;
+	line-height: 27px;
+	margin-bottom: 0;
+	letter-spacing: 0;
+	text-transform: none;
+	border: 0px;
+	border-bottom: #73ce04 2px solid;
+	padding: 2px 0px 0px 10px;
+}
+.form_zprava {
+	color: #000;
+	font-size: 20px;
+	font-style: normal;
+	margin-top: 0;
+	text-align: left;
+	font-family: 'fontMedium', sans-serif;
+	font-weight: 500;
+	line-height: 27px;
+	margin-bottom: 0;
+	letter-spacing: 0;
+	text-transform: none;
+	border: 0px;
+	border-bottom: #73ce04 2px solid;
+	height: 108px;
+}
+.form_name textarea {
+}

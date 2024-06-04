@@ -12,7 +12,7 @@ app.use((req, res, next) => {
   next();
 });
 
-function sendEmail({ email, subject, message }) {
+function sendEmail({ email, subject, message, name, numbers, maill }) {
   return new Promise((resolve, reject) => {
     var transporter = nodemailer.createTransport({
       service: "gmail",
@@ -27,8 +27,53 @@ function sendEmail({ email, subject, message }) {
       to: email,
       subject: subject,
       html: `
-      <p>Jmeno</p>
-      <p>${message}</p>
+      <html>
+      <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+      </head>
+      <body>
+       <table cellpadding="5" style="font-family:Montserrat, sans-serif; font-size:12px; color:#333; border-left: solid 1px #e9e9e9; border: thin groove #CCCCCC">
+          <tr bgcolor=#FF8100 valign="top">
+            <td style="border-bottom-style: groove; border-bottom-width: thin"><strong>${subject}</strong></td>
+            <td style="border-bottom-style: groove; border-bottom-width: thin"><strong>Document</strong></td>
+          </tr>
+          <tr bgcolor=#FFCA99 valign="top">
+            <td>Jmeno</td>
+            <td> 
+              <ul style="margin: 0px 0px 0px 0px; padding: 5px 15px 5px 5px;">
+               <li>${name}</li>
+              </ul>
+            </td>
+          </tr>
+          <tr bgcolor=#FFCA99 valign="top">
+            <td>Telefonní číslo</td>
+            <td> 
+              <ul style="margin: 0px 0px 0px 0px; padding: 5px 15px 5px 5px;">
+               <li>${numbers}</li>
+              </ul>
+            </td>
+          </tr>
+          <tr bgcolor=#FFCA99 valign="top">
+            <td>Maill</td>
+            <td> 
+              <ul style="margin: 0px 0px 0px 0px; padding: 5px 15px 5px 5px;">
+               <li>${maill}</li>
+              </ul>
+            </td>
+          </tr>
+          <tr bgcolor=#FFCA99 valign="top">
+            <td>Meseg</td>
+            <td> 
+              <ul style="margin: 0px 0px 0px 0px; padding: 5px 15px 5px 5px;">
+               <li>${message}</li>
+              </ul>
+            </td>
+          </tr>
+         </table>
+        </body>
+       </html>
       `,
     };
     transporter.sendMail(mail_configs, function (error, info) {
@@ -38,7 +83,7 @@ function sendEmail({ email, subject, message }) {
       }
       return resolve({ message: "Email sent successfully1111" });
     });
-  }); 
+  });
 }
 
 app.get("/", (req, res) => {

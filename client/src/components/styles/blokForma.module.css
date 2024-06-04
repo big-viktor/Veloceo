@@ -1,0 +1,31 @@
+.container_form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 1920px;
+	width: 100%;
+	margin: 210px 0px 0px 0px;
+}
+.content_bloc {
+	max-width: 1920px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	margin: 103px 0px 0px 0px;
+}
+.content_img {
+	height: 23vw;
+	width: 30%;
+}
+.content_title {
+	display: flex;
+	width: 68%;
+	flex-direction: column;
+	align-items: center;
+}
+.content_text {
+	text-align: center;
+	width: 93%;
+}

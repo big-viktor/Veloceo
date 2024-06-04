@@ -39,7 +39,14 @@
 
     "blackText":"Klikněte na tlačítko 'Job' níže a automaticky přejdete na Nabídky práce. Na naší stránce nabídek práce najdete pozice v různých oborech a s různými požadavky. Poté, co si vyberete zajímavou pozici, stačí vyplnit náš jednoduchý kontaktní formulář, a my se co nejdříve budeme snažit kontaktovat vás. Jsme tu, abychom vám pomohli najít ideální pracovní příležitost, která splňuje vaše očekávání a potřeby.",
     "blackTitle":"Jste uchazeč? My se postaráme o vás!",
-    "btnName":"Job"
+
+    "btnName":"Job",
+    "formTitleHom":"Potřebujete kontaktovat Veloceo?",
+    "formTextHome":"Stačí vyplnit kontaktní formulář níže nebo navštívit sekci Kontakty, kde najdete další možnosti pro spojení s námi.",
+    "formName":"Jmeno",
+    "formNumber":"Telefonní číslo",
+    "formMail":"E-mailová adresa",
+    "formMessage":"Zpráva nebo dotaz"
 
     
 

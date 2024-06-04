@@ -3,7 +3,6 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from '../components/Layout1';
 import TitleHome from '../components/TitleHome.jsx';
-import styles from '../components/styles/home.module.css';
 import Signboard from '../components/Signboard.jsx';
 import CardBlock from '../components/BlokCard.jsx';
 import InfoHome from '../components/InfoHome.jsx';
@@ -13,8 +12,7 @@ import ServicesBloc from '../components/ServicesBloc.jsx';
 import { useTranslation } from 'react-i18next';
 import '../i18next';
 import BlackBlok from '../components/BlackBlok.jsx';
-import BlockForma from '../components/BlokForma.jsx';
-import FormHome from '../clientForm/formHome';
+import BlocFormHom from '../components/BlocFormHom.jsx';
 
 function Home() {
 	const { t } = useTranslation();
@@ -34,7 +32,7 @@ function Home() {
 				btnName={'btnName'}
 				showBtn={true}
 			/>
-			<FormHome />
+			<BlocFormHom />
 		</>
 	);
 }
