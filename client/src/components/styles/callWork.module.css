@@ -1,10 +1,10 @@
 .container {
 	display: flex;
 	flex-direction: row;
-	margin: 229px 0px 0px 0px;
+	margin: 230px 0px 0px 0px;
 }
 .img {
-	height: 37vw;
+	height: 36vw;
 	width: 112%;
 	background-size: 100%;
 	background-repeat: no-repeat;

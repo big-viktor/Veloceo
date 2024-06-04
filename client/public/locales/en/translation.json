@@ -41,5 +41,14 @@
 
     "blackText":"Click on the 'Job' button below and you will automatically be taken to the job vacancies page. You will find positions in different fields and with different requirements on our job vacancies page. Once you have selected a position of interest, simply fill out our simple contact form and we will endeavour to contact you as soon as possible. We are here to help you find the ideal job opportunity that meets your expectations and needs.",
     "blackTitle":"Are you a candidate? We will take care of you!",
-    "btnName":"Job"
+    "btnName":"Job",
+
+    "formTitleHom":"Need to contact Veloceo?",
+    "formTextHome":"Simply fill out the contact form below or visit the Contacts section to find more ways to get in touch with us.",
+    "formName":"Name",
+    "formNumber":"Phone number",
+    "formMail":"E-mail address",
+    "formMessage":"Message or Inquiry",
+    "formButton":"Send"
+
 }

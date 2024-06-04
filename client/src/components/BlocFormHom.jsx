@@ -19,7 +19,9 @@ const BlocFormHom = () => {
 					</div>
 				</div>
 				<div className={styles['content_bloc']}>
-					<FormHome />
+					<div className={styles['bloc_form']}>
+						<FormHome />
+					</div>
 					<div className={styles['content_img']}>
 						<BacgCard sendUrl={ImgB} direction={true} />
 					</div>

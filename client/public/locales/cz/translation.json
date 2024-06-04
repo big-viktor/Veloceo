@@ -6,6 +6,7 @@
         "link3":"Pro Uchazeče",
         "link4":"Pro Firmy",
         "link5":"Kontakt",
+        "link6":"Zpracování osobních údajů",
         "titleHom1":"Rozšiřte své podnikání s personální agenturou",
         "titleHom2":"Veloceo®",
         "titleHom3":"Budujeme silné partnerství s firmami pro vzájemný růst a úspěch po celé České republice!",
@@ -39,17 +40,47 @@
 
     "blackText":"Klikněte na tlačítko 'Job' níže a automaticky přejdete na Nabídky práce. Na naší stránce nabídek práce najdete pozice v různých oborech a s různými požadavky. Poté, co si vyberete zajímavou pozici, stačí vyplnit náš jednoduchý kontaktní formulář, a my se co nejdříve budeme snažit kontaktovat vás. Jsme tu, abychom vám pomohli najít ideální pracovní příležitost, která splňuje vaše očekávání a potřeby.",
     "blackTitle":"Jste uchazeč? My se postaráme o vás!",
-
     "btnName":"Job",
+
     "formTitleHom":"Potřebujete kontaktovat Veloceo?",
     "formTextHome":"Stačí vyplnit kontaktní formulář níže nebo navštívit sekci Kontakty, kde najdete další možnosti pro spojení s námi.",
     "formName":"Jmeno",
     "formNumber":"Telefonní číslo",
     "formMail":"E-mailová adresa",
-    "formMessage":"Zpráva nebo dotaz"
+    "formMessage":"Zpráva nebo dotaz",
+    "formButton":"Odeslat",
 
+    "cardTitleContact":"Sídlo Praha",
+    "cardAdresContact":"Revoluční 763/15 Staré Město, 110 00 Praha 1",
+    "cardNumberContact":"(+420) 775 493 329",
+    "cardMaillContact":"info@veloceo.cz",
+    "cardMapContact":"Zobrazit na mape",
+    "mapHrefPraha":"https://www.google.com/maps/place/Veloceo/@50.0913427,14.4274384,17z/data=!3m1!4b1!4m6!3m5!1s0x470b950e2194f8a3:0x403014a2c6da175a!8m2!3d50.0913427!4d14.4274384!16s%2Fg%2F11vq_98n0p?authuser=0&hl=cs&entry=ttu",
     
+    "cardTitleContactTwo":"Pracoviště Jihlava",
+    "cardAdresContactTwo":"Dělnická 4898/1a 586 01 Jihlava",
+    "cardNumberContactTwo":"(+420) 775 493 329",
+    "cardMaillContactTwo":"info@veloceo.cz",
+    "mapHrefJihlava":"https://www.google.com/maps/place/Veloceo/data=!4m7!3m6!1s0x470d1b758e71aa0b:0x6c4ac43475f025e1!8m2!3d49.4087673!4d15.5976568!16s%2Fg%2F11vq__xq9t!19sChIJC6pxjnUbDUcR4SXwdTTESmw?authuser=0&hl=cs&rclk=1",
 
 
+    "cardTitleContactThre":"Pobočka Uherský Brod",
+    "cardAdresContactThre":"Pod Valy 1046, 688 01 Uherský Brod",
+    "cardNumberContactThre":"(+420) 775 493 329",
+    "cardMaillContactThre":"info@veloceo.cz",
+    "mapHrefBrod":"https://www.google.com/maps/place/Veloceo/@49.0220528,17.6412277,17z/data=!3m1!4b1!4m6!3m5!1s0x47136b8941ca48ad:0x962d5ed44182af3f!8m2!3d49.0220528!4d17.643808!16s%2Fg%2F11vzqdcqlz?authuser=0&entry=ttu",
+  
+    "socialHref":"https://www.facebook.com/personalnicr",
+
+    "socialHrefTwo":"https://t.me/veloceo",
+
+    "socialHrefThre":"https://www.instagram.com/veloceo/",
+
+    "socialHrefFo":"https://chat.whatsapp.com/CIgj9EmkqCCLbPTNCOZsdy",
+
+    "socialHrefFaiv":"https://invite.viber.com/?g2=AQBvpuZO%2BhUNA1LbLiAJjPZJOLComMiuQL3MPAcuvkN0v1z0TwO5UgnshfBo1502",
+
+    "socialHrefSix":"https://www.youtube.com/@Veloceo"
 
 }
+  

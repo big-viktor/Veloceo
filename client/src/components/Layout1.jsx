@@ -1,12 +1,11 @@
 import { Link } from 'react-router-dom';
 import '../i18next';
 import { useTranslation } from 'react-i18next';
-import logo from '../assets/Frame.svg';
 import styles from './styles/layout.module.css';
 import '../../src/index.css';
 import MenuLang from './MenuLang';
 import { useState } from 'react';
-
+import Logo from './Logo.jsx';
 const Layout = () => {
 	const { t } = useTranslation();
 	const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +14,7 @@ const Layout = () => {
 		<>
 			<div className={styles.content_mod}>
 				<div className={styles.container_layout}>
-					<img src={logo} alt='#' className={styles.loggo} />
+					<Logo />
 					<div className={styles.container_switch}>
 						<ul className={styles.container_link}>
 							<li className={styles.link_name}>
@@ -61,6 +60,7 @@ const Layout = () => {
 								</li>
 							</ul>
 						</div>
+
 						<MenuLang />
 					</div>
 				</div>

@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
-import Titles from '../components/Titles.jsx';
-import TextTitle from '../components/TextTitle';
 import styles from './style/form.module.css';
+import Button from '../components/Button.jsx';
 import { useTranslation } from 'react-i18next';
 import '../i18next';
 
@@ -58,8 +57,9 @@ const FormHome = () => {
 				placeholder={t(['formMessage'])}
 				onChange={e => setMessage(e.target.value)}
 			/>
-
-			<button onClick={sendMail}>Send Email</button>
+			<div onClick={sendMail}>
+				<Button name={'formButton'} />
+			</div>
 		</div>
 	);
 };

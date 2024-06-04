@@ -13,6 +13,8 @@ import { useTranslation } from 'react-i18next';
 import '../i18next';
 import BlackBlok from '../components/BlackBlok.jsx';
 import BlocFormHom from '../components/BlocFormHom.jsx';
+import BlocInfo from '../components/BlocInfo.jsx';
+import Footer from '../components/Footer.jsx';
 
 function Home() {
 	const { t } = useTranslation();
@@ -33,6 +35,8 @@ function Home() {
 				showBtn={true}
 			/>
 			<BlocFormHom />
+			<BlocInfo />
+			<Footer />
 		</>
 	);
 }

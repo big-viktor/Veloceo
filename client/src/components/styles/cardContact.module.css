@@ -1,0 +1,63 @@
+.container_card_contact {
+	display: flex;
+	flex-direction: column;
+	border: 4px solid #73ce04;
+	height: 100%;
+	justify-content: space-evenly;
+	padding: 0px 2px 0px 26px;
+}
+
+.card_title {
+	color: #000;
+	font-size: 1.9em;
+	font-style: normal;
+	font-family: 'SemiBold', sans-serif;
+	font-weight: 600;
+	line-height: 1.8em;
+	letter-spacing: 0;
+	text-transform: none;
+}
+.card_adres {
+	color: #585a63;
+	font-size: 1.2em;
+	font-style: normal;
+	font-family: 'fontMedium', sans-serif;
+	font-weight: 500;
+	line-height: 0.9em;
+	letter-spacing: 0;
+	text-transform: none;
+	width: 50%;
+}
+.card_number {
+	color: #000;
+	font-size: 1.3em;
+	font-style: normal;
+	font-family: 'fontMedium', sans-serif;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: 0;
+	text-transform: none;
+}
+.card_maill {
+	color: #000;
+	font-size: 1.1em;
+	font-style: normal;
+	font-family: 'fontMedium', sans-serif;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: 0;
+	text-transform: none;
+}
+.card_href_adres {
+	color: #73ce04;
+	font-size: 22px;
+	font-style: normal;
+	font-family: 'fontBold', sans-serif;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0;
+	text-transform: none;
+}
+.card_href_adres a {
+	text-decoration: 1px #73ce04 solid;
+}

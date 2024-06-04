@@ -1,4 +1,4 @@
-import styles from './styles/titles.module.css';
+import styles from './styles/titleText.module.css';
 import { useTranslation } from 'react-i18next';
 import '../i18next';
 // eslint-disable-next-line react/prop-types

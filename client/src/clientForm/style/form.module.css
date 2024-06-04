@@ -2,9 +2,8 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	max-width: 605px;
 	justify-content: space-between;
-	height: 474px;
+	height: 100%;
 }
 .form_name {
 	color: #000;
@@ -21,6 +20,7 @@
 	border: 0px;
 	border-bottom: #73ce04 2px solid;
 	padding: 2px 0px 0px 10px;
+	resize: none;
 }
 .form_zprava {
 	color: #000;
@@ -36,7 +36,8 @@
 	text-transform: none;
 	border: 0px;
 	border-bottom: #73ce04 2px solid;
-	height: 108px;
+	height: 148px;
+	resize: none;
 }
 .form_name textarea {
 }
